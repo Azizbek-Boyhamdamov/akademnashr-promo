@@ -1,0 +1,134 @@
+.site-header {
+  background-color: #fff;
+}
+.sitenav-list li{
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.main-btn {
+  background: #FF7500;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  color: #fff;
+  background-color: #252420;
+}
+
+.hero-content {
+  width: 387px;
+}
+
+.orange-line {
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
+}
+
+.hero-heading {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.hero-text{
+  line-height: 1.5;
+  letter-spacing: 0.5;
+}
+.hero-img {
+  width: 510px;
+  height: 510px;
+  border-radius: 8px;
+}
+
+.features-heading{
+  width: 435px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.feature-icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+
+}
+
+.feature-list{
+  width: 340px;
+  list-style: none;
+}
+
+.feature-subtitle{
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.feature-desc{
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.promo{
+  background-color: #252420;
+  color: #fff;
+
+
+}
+.promo-content{
+  width:440px;
+}
+.promo-heading{
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.promo-desc{
+  line-height: 1.5;
+  letter-spacing: 0.5;
+}
+
+strong{
+  color: #FF7500;
+}
+/* oblect fit ko'rib chiqishimiz kerak */
+.promo-img{
+  border-radius: 12px;
+  object-fit: cover;
+
+}
+
+.site-footer{
+  background-color: #F8F8F8;
+
+}
+.site-footer  ul{
+  list-style: none;
+}
+.site-footer-divider{
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer-link-list{
+  width:  224px;
+}
+.site-footer-link-list a{
+  text-decoration: none;
+  color: #252420;
+  font-size: 16px;
+  line-height: 1.5;
+}
