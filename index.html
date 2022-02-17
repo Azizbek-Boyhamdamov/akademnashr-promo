@@ -13,6 +13,7 @@
     rel="stylesheet">
 
   <!-- Styles -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Akademnashr</title>
 </head>
@@ -26,10 +27,10 @@
     <div class="site-header-actions">
       <nav>
         <ul class="sitenav-list">
-          <li><a class="nav-link" href="#">Bosh sahifa</a></li>
-          <li><a class="nav-link" href="#">Kitoblar</a></li>
-          <li><a class="nav-link" href="#">Aksiyalar</a></li>
-          <li><a class="nav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a class="nav-link" href="#">Bosh sahifa</a></li>
+          <li class="sitenav-item"><a class="nav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="nav-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item"><a class="nav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
       <a class="main-btn" href="#">Ro'yxatdan o'tish</a>
@@ -91,12 +92,12 @@
     <section class="promo">
       <div class="promo-content">
         <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-        <p class="promo-desc">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq
-          qo’llanmalari va komikslar.</p>
-        <p class="promo-desc">Aksiyadagi eng katta to’plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong>
-          so’mga (aslida 383 ming
-          so’m) sotib olishingiz mumkin.</p>
-        <a class="main-btn" href="#">Buyurtma berish</a>
+        <div class="promo-info-wrapper">
+          <p class="promo-desc">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq
+            qo’llanmalari va komikslar.</p>
+          <p class="promo-desc">Aksiyadagi eng katta to’plamda <span>50 ta kitob</span>ni <span>350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        </div>
+          <a class="main-btn" href="#">Buyurtma berish</a>
       </div>
 
       <img class="promo-img" src="./img/sale-img.jpg" alt="kitoblar toplami" width="440" height="440"

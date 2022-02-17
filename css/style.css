@@ -36,7 +36,13 @@ body{
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
 }
+.sitenav-item:not(:last-child){
+  margin-right: 32px;
+}
+
 .nav-link {
   text-decoration: none;
   font-weight: 500;
@@ -95,12 +101,20 @@ body{
   height: 3px;
   border: none;
   background-color: #FF7500;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .hero-heading {
   font-size: 40px;
   line-height: 1.2;
   font-family: 'Roboto Condensed','Arial', sans-serif;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.hero-text{
+  margin: 0;
+  margin-bottom: 32px;
 }
 .hero-img{
   border-radius: 8px;
@@ -118,11 +132,13 @@ body{
   font-size: 72px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .features-list{
   display: flex;
-  justify-content: space-between;
   padding: 0;
+  margin: 0;
 }
 .feature-icon-wrapper{
   display: flex;
@@ -137,6 +153,9 @@ body{
 .feature-item{
   width: 340px;
   list-style: none;
+}
+.feature-item:not(:last-child){
+  margin-right: 40px;
 }
 
 .feature-subtitle{
@@ -159,10 +178,23 @@ body{
   font-family: 'Roboto Condensed','Arial', sans-serif;
   font-size: 40px;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.promo-desc{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.promo-desc:not(:last-child){
+  margin-bottom: 12px;
+}
+.promo-info-wrapper{
+  margin-bottom: 24px;
 }
 
-strong{
+span{
   color: #FF7500;
+  font-weight: bold;
 }
 /* oblect fit ko'rib chiqishimiz kerak */
 .promo-img{
@@ -185,6 +217,10 @@ strong{
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+.site-footer-socials li:not(:last-child){
+   margin-right: 16px;
 }
 .site-footer-socials a{
   color: #252420;
@@ -201,6 +237,8 @@ strong{
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
   border: none;
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 .site-footer-bottom{
   display: flex;
@@ -211,6 +249,10 @@ strong{
   width:  224px;
   line-height: 19px;
   padding: 0;
+  margin: 0;
+}
+.site-footer-link-list:not(:last-child){
+  margin-right: 68px;
 }
 .site-footer-link-list a{
   text-decoration: none;
