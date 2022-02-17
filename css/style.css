@@ -17,6 +17,7 @@ body{
   background-color: #fff;
 }
 .logo-link{
+  display: block;
   transition: opacity 0.4s ease;
 }
 
@@ -26,7 +27,9 @@ body{
 .logo-link:active{
   opacity: 0.6;
 }
-
+.logo-link img{
+  display: block;
+}
 .site-header-actions{
   display: flex;
   align-items: center;
@@ -223,6 +226,7 @@ span{
    margin-right: 16px;
 }
 .site-footer-socials a{
+  display: block;
   color: #252420;
 }
 .site-footer-socials a:hover{
@@ -230,6 +234,9 @@ span{
 }
 .site-footer-socials a:active{
   opacity: 0.6;
+}
+.site-footer-socials svg{
+  display: block;
 }
 
 
