@@ -4,6 +4,10 @@ body{
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
+*:focus{
+  outline: 3px dashed #FF7500;
+  outline-offset: 3px;
+}
 .site-header {
   display: flex;
   align-items: center;
@@ -191,6 +195,6 @@ strong{
 .site-footer-link-list a:hover{
   color: #FF7500;
 }
-.site-footer-link-list a:focus{
+.site-footer-link-list a:active{
   opacity: 0.6;
 }
