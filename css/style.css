@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: 'Roboto','Arial', sans-serif;
   font-size: 16px;
@@ -8,13 +12,24 @@ body{
   outline: 3px dashed #FF7500;
   outline-offset: 3px;
 }
+/* Container */
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: auto;
+
+}
 .site-header {
-  border-top: 5px solid #FF7500;
   padding: 16px 0;
+  border-top: 5px solid #FF7500;
+  background-color: #fff;
+}
+.site-header-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+
 }
 .logo-link{
   display: block;
@@ -87,14 +102,15 @@ body{
 
 /* HERO */
 .hero {
+  color: #fff;
+  background-color: #252420;
+}
+.hero-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 80px 0;
-  color: #fff;
-  background-color: #252420;
 }
-
 .hero-content {
   width: 387px;
 }
@@ -121,6 +137,7 @@ body{
 }
 .hero-img{
   border-radius: 8px;
+  box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
 /* FEATURE */
@@ -150,6 +167,7 @@ body{
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  margin-bottom: 32px;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -162,14 +180,26 @@ body{
 }
 
 .feature-subtitle{
+  margin-top: 0;
+  margin-bottom: 12px;
   font-family: 'Roboto Condensed','Arial', sans-serif;
   font-size: 24px;
 }
+.feature-desc{
+  margin: 0;
+}
 
+
+/* Promo */
 .promo{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+.promo-inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 64px;
   border-radius: 12px;
   background-color: #252420;
   color: #fff;
@@ -225,6 +255,7 @@ span{
 .site-footer-socials li:not(:last-child){
    margin-right: 16px;
 }
+
 .site-footer-socials a{
   display: block;
   color: #252420;
@@ -258,12 +289,16 @@ span{
   padding: 0;
   margin: 0;
 }
+.site-footer-link-list li:not(:last-child){
+  margin-bottom: 16px;
+}
 .site-footer-link-list:not(:last-child){
   margin-right: 68px;
 }
 .site-footer-link-list a{
   text-decoration: none;
   color: #252420;
+
 }
 .site-footer-link-list a:hover{
   color: #FF7500;
