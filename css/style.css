@@ -104,12 +104,14 @@ body{
 .hero {
   color: #fff;
   background-color: #252420;
+
 }
 .hero-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 80px 0;
+  height: 500px;
 }
 .hero-content {
   width: 387px;
@@ -138,6 +140,7 @@ body{
 .hero-img{
   border-radius: 8px;
   box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
+  transform: translateY(40px);
 }
 
 /* FEATURE */
@@ -199,6 +202,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 420px;
   padding: 64px;
   border-radius: 12px;
   background-color: #252420;
@@ -231,6 +235,7 @@ span{
 }
 /* oblect fit ko'rib chiqishimiz kerak */
 .promo-img{
+  transform: translateY(-64px);
   border-radius: 12px;
   object-fit: cover;
 }
