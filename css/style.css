@@ -16,7 +16,8 @@ body{
 .container{
   width: 100%;
   max-width: 1140px;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: auto;
 
 }
@@ -110,11 +111,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 0;
-  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
 }
 .hero-content {
   width: 387px;
+
 }
 
 .orange-line {
@@ -140,7 +143,9 @@ body{
 .hero-img{
   border-radius: 8px;
   box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
-  transform: translateY(40px);
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }
 
 /* FEATURE */
@@ -202,11 +207,11 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 420px;
   padding: 64px;
   border-radius: 12px;
   background-color: #252420;
   color: #fff;
+  position: relative;
 }
 .promo-content{
   width:440px;
@@ -233,9 +238,11 @@ span{
   color: #FF7500;
   font-weight: bold;
 }
-/* oblect fit ko'rib chiqishimiz kerak */
+
 .promo-img{
-  transform: translateY(-64px);
+  position: absolute;
+  bottom: 64px;
+  right: 64px;
   border-radius: 12px;
   object-fit: cover;
 }
